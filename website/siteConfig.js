@@ -36,6 +36,32 @@ const users = [
     twitter: 'jeffvance',
     pinned: true,
   },
+  {
+    caption: 'Srini Brahmaroutu',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/image.jpg'.
+    image: '/img/srini_brahmaroutu.jpeg',
+    infoLink: 'https://github.com/brahmaroutu',
+    organizationURL: 'https://www.ibm.com',
+    organizationName: 'IBM Inc.',
+    organizationLogo: '/img/ibm.png',
+    github: 'brahmaroutu',
+    twitter: 'brahmaroutu',
+    pinned: true,
+  },
+  {
+    caption: 'Krish Chowdhary',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/image.jpg'.
+    image: '/img/krish_chowdhary.jpeg',
+    infoLink: 'https://github.com/krishchow',
+    organizationURL: 'https://redhat.com',
+    organizationName: 'Redhat Inc.',
+    organizationLogo: '/img/redhat.png',
+    github: 'krishchow',
+    twitter: 'krishchow_',
+    pinned: true,
+  },
 ];
 
 const siteConfig = {
