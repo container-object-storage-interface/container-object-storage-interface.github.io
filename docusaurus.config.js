@@ -4,7 +4,7 @@ module.exports = {
   tagline: 'Kubernetes Container Object Storage Interface (COSI) is a standard for exposing object storage to containerized workloads running in Kubernetes',
   url: 'https://container-object-storage-interface.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'container-object-storage-interface', // Usually your GitHub org/user name.
