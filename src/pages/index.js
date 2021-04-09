@@ -241,6 +241,8 @@ export default function Home() {
           </section>
         )}
 
+
+{/*
         {users && users.length > 0 && (
             <section className={styles.users}>
               <div className="container">
@@ -255,7 +257,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
-        )}
+        )} */}
       </main>
     </Layout>
   );
