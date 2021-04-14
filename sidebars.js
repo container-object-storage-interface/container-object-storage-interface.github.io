@@ -7,6 +7,9 @@ module.exports = {
       items: [
         'introduction',
         'contributing',
+        'cosi/architecture',
+        'cosi/protocols',
+        'cosi/internals',
       ],
     },
 
