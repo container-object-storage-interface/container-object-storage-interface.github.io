@@ -6,7 +6,6 @@ module.exports = {
       label: 'Kubernetes COSI',
       items: [
         'introduction',
-        'roadmap',
         'contributing',
       ],
     },
@@ -33,6 +32,9 @@ module.exports = {
 
   community: [
     'community/team',
+    'community/support',
+    'community/weekly-meetings',
+    'community/code-of-conduct'
   ],
 
 

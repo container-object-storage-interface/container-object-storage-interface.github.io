@@ -14,7 +14,7 @@ module.exports = {
       title: 'Kubernetes COSI',
       logo: {
         alt: 'Kubernetes COSI',
-        src: 'img/logo.svg',
+        src: 'img/logo-15.svg',
       },
       items: [
         {
@@ -22,6 +22,11 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
+        },
+        {
+          position: 'left',
+          href: 'https://github.com/orgs/kubernetes-sigs/projects/8',
+          label: 'Roadmap',
         },
         {
           type: 'doc',
