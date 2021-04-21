@@ -76,6 +76,10 @@ module.exports = {
               label: 'Code of Conduct',
               to: 'docs/community/code-of-conduct'
             },
+            {
+              label: 'Support',
+              to: 'docs/community/support'
+            },
           ],
         },
         {
