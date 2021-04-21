@@ -70,8 +70,24 @@ module.exports = {
           title: 'GitHub Repositories',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/kubernetes-sigs?q=container-object-storage-interface&type=&language=&sort=',
+              label: 'container-object-storage-interface-api',
+              href: 'https://github.com/kubernetes-sigs/container-object-storage-interface-api',
+            },
+            {
+              label: 'container-object-storage-interface-spec',
+              href: 'https://github.com/kubernetes-sigs/container-object-storage-interface-spec',
+            },
+            {
+              label: 'container-object-storage-interface-controller',
+              href: 'https://github.com/kubernetes-sigs/container-object-storage-interface-controller',
+            },
+            {
+              label: 'container-object-storage-interface-provisioner-sidecar',
+              href: 'https://github.com/kubernetes-sigs/container-object-storage-interface-provisioner-sidecar',
+            },
+            {
+              label: 'container-object-storage-interface-csi-adapter',
+              href: 'https://github.com/kubernetes-sigs/container-object-storage-interface-csi-adapter',
             },
           ],
         },

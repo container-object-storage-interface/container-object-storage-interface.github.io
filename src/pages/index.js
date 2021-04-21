@@ -13,7 +13,7 @@ const features = [
     imageUrl: 'img/vendors.svg',
     description: (
       <>
-Vendors can write their own COSI drivers to enable applications to use their object storage system. Learn how to write a COSI driver <a href="https://github.com/kubernetes-sigs/container-object-storage-interface-api/blob/master/docs/how-to-write-a-cosi-driver.md">here</a>.
+Vendors can write their own COSI drivers to enable applications to use their object storage system. Learn how to write a COSI driver <Link to="docs/write-driver/introduction">here</Link>.
       </>
     ),
   },
@@ -22,7 +22,7 @@ Vendors can write their own COSI drivers to enable applications to use their obj
     imageUrl: 'img/app_developers.svg',
     description: (
       <>
-Make your application COSI compatible and seamlessly switch between object storage providers without any application code changes. Learn more <a href="https://github.com/kubernetes-sigs/container-object-storage-interface-api/blob/master/docs/how-to-make-your-application-cosi-compatible.md">here</a>.
+Make your application COSI compatible and seamlessly switch between object storage providers without any application code changes. Learn more it <Link to="docs/user-guide">here</Link>.
       </>
     ),
   },
@@ -223,7 +223,7 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to="https://github.com/kubernetes-sigs/container-object-storage-interface-api/blob/master/docs/deployment-guide.md">
+              to="docs/deployment-guide">
               TRY IT OUT
             </Link>
           </div>
@@ -242,13 +242,11 @@ export default function Home() {
           </section>
         )}
 
-
         {users && users.length > 0 && (
         <section className={styles.users}>
           <div className="container">
             <div className="col">
-              <h2 className="text--center">Who is Behind This?</h2>
-              <h3 className="text--center">SIG Storage COSI is led by these members</h3>
+              <h2 className="text--center">SIG Storage COSI is led by these members</h2>
             </div>
             <div className="row">
               {users.map((props, idx) => (

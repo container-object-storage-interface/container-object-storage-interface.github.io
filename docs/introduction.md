@@ -3,6 +3,9 @@ title: Introduction
 slug: /
 ---
 
+<img src="https://camo.githubusercontent.com/e185f54d272f9cd4608dd20eb130133dea29f524fbb4a0d8951131ecec8de1de/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d7072652d2d616c7068612d6c6967687467726579" /> &nbsp; <img src="https://camo.githubusercontent.com/08c304eeca9212a219c763b7277f3395e2a580b1d07cfb49287e9fc5add3d19a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f61706956657273696f6e2d7631616c706861312d6c69676874677265656e" />
+
+
 ## Container Object Storage Interface (COSI)
 
 Container Object Storage Interface (COSI) is a set of abstractions for provisioning and management of object storage. It aims to be a common layer of abstraction across multiple object storage vendors, such that workloads can request and automatically be provisioned object storage buckets.

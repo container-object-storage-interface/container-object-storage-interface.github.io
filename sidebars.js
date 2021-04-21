@@ -6,6 +6,7 @@ module.exports = {
       label: 'Kubernetes COSI',
       items: [
         'introduction',
+        'kube_release_support',
         'contributing',
         'cosi/architecture',
         'cosi/protocols',
