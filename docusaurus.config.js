@@ -35,7 +35,7 @@ module.exports = {
           label: 'Community',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/container-object-storage-interface/container-object-storage-interface.github.io',
           label: 'GitHub',
           position: 'right',
         },
