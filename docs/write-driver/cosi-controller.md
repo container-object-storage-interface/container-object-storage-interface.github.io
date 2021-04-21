@@ -1,0 +1,3 @@
+---
+title: COSI Controller
+---

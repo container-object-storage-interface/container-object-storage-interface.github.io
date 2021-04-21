@@ -28,6 +28,9 @@ module.exports = {
       type: 'category',
       items: [
         'write-driver/introduction',
+        'write-driver/cosi-controller',
+        'write-driver/cosi-sidecar',
+
       ],
     },
 
