@@ -1,6 +1,7 @@
 ---
-title: Authoring COSI Driver
+title: Introduction
 ---
+## Authoring COSI Driver
 
 The target audience for this documentation is third-party developers interested in developing [Container Object Storage Interface (COSI)](https://github.com/kubernetes-sigs/container-object-storage-interface-spec/blob/master/spec.md) driver on Kubernetes.
 

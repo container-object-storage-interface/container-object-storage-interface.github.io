@@ -48,22 +48,34 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/',
+              label: 'Deploying COSI',
+              to: 'docs/deployment-guide',
+            },
+            {
+              label: 'Using COSI',
+              to: 'docs/user-guide',
+            },
+            {
+              label: 'Authoring COSI Driver',
+              to: 'docs/write-driver/introduction',
             },
           ],
         },
         {
           title: 'Community',
           items: [
-            // {
-            //   label: 'Stack Overflow',
-            //   href: 'https://stackoverflow.com/questions/tagged/cosi',
-            // },
-            // {
-            //   label: 'Twitter',
-            //   href: 'http://example.com',
-            // },
+            {
+              label: 'Team',
+              to: 'docs/community/team'
+            },
+            {
+              label: 'Weekly Meetings',
+              to: 'docs/community/weekly-meetings'
+            },
+            {
+              label: 'Code of Conduct',
+              to: 'docs/community/code-of-conduct'
+            },
           ],
         },
         {

@@ -20,7 +20,6 @@ module.exports = {
       items: [
         'deployment-guide',
         'user-guide',
-        'markdown-features',
       ],
     },
 
@@ -29,6 +28,14 @@ module.exports = {
       type: 'category',
       items: [
         'write-driver/introduction',
+      ],
+    },
+
+    {
+      label: 'Misc',
+      type: 'category',
+      items: [
+        'markdown-features',
       ],
     },
 
