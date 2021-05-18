@@ -35,6 +35,12 @@ module.exports = {
           label: 'Community',
         },
         {
+          type: 'doc',
+          position: 'left',
+          docId: 'presentations/presentations',
+          label: 'Presentations',
+        },
+        {
           href: 'https://github.com/container-object-storage-interface/container-object-storage-interface.github.io',
           label: 'GitHub',
           position: 'right',
@@ -82,6 +88,7 @@ module.exports = {
             },
           ],
         },
+
         {
           title: 'GitHub Repositories',
           items: [

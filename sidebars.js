@@ -34,13 +34,13 @@ module.exports = {
       ],
     },
 
-    {
-      label: 'Misc',
-      type: 'category',
-      items: [
-        'markdown-features',
-      ],
-    },
+    // {
+    //   label: 'Misc',
+    //   type: 'category',
+    //   items: [
+    //     'markdown-features',
+    //   ],
+    // },
 
   ],
 
