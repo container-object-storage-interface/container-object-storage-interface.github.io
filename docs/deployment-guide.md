@@ -27,8 +27,8 @@ kubectl create -k github.com/kubernetes-sigs/container-object-storage-interface-
 # Install controller
 kubectl create -k github.com/kubernetes-sigs/container-object-storage-interface-controller
 
-# Sample Provisioner and Sidecar
-kubectl create -k github.com/kubernetes-sigs/container-object-storage-interface-provisioner-sidecar
+# Sample Provisioner and Sidecar base on minio
+kubectl create -k github.com/kubernetes-retired/cosi-driver-minio
 
 # Node Adapter
 kubectl create -k github.com/kubernetes-sigs/container-object-storage-interface-csi-adapter
@@ -63,10 +63,10 @@ The controller will be deployed in the `default` namespace.
 
 ### Sample Driver & Sidecar
 
-Sample Driver & Sidecar can be setup using the [kustomization file](https://github.com/kubernetes-sigs/container-object-storage-interface-provisioner-sidecar/blob/master/kustomization.yaml) from the [container-object-storage-interface-provisioner-sidecar](https://github.com/kubernetes-sigs/container-object-storage-interface-provisioner-sidecar) repository with following command:
+Sample Driver & Sidecar can be setup using the [kustomization file](https://github.com/kubernetes-retired/cosi-driver-minio/blob/master/kustomization.yaml) from the [cosi-driver-minio](https://github.com/kubernetes-retired/cosi-driver-minio) repository with following command:
 
 ```sh
-kubectl create -k github.com/kubernetes-sigs/container-object-storage-interface-provisioner-sidecar
+kubectl create -k github.com/kubernetes-retired/cosi-driver-minio
 ```
 ### Node Adapter
 
