@@ -11,7 +11,7 @@ A COSI driver must implement following:
 
 ## Identity Server
 
-A `IdentityServer` reports the driver's name on the `ProvisionerGetInfo` RPC call from the controller.
+A `IdentityServer` reports the driver's name on the `DriverGetInfo` RPC call from the controller.
 
 ### Identity Server Struct
 
@@ -25,15 +25,15 @@ type identityServer struct {
 ## Driver APIs
 
 COSI driver must implement following APIs. We recommended developer synchronize all checks and business logic.
-### ProvisionerCreateBucket
+### DriverCreateBucket
 
-The `ProvisionerCreateBucket` API is called when a user wants to create a new bucket. Driver must create the bucket only after ensuring that a bucket with same name does not already exist.
-### ProvisionerDeleteBucket
+The `DriverCreateBucket` API is called when a user wants to create a new bucket. Driver must create the bucket only after ensuring that a bucket with same name does not already exist.
+### DriverDeleteBucket
 
-The `ProvisionerDeleteBucket` API is called when a user wants to delete a bucket. Driver must delete the bucket if it exists. If it cannot find a bucket with the matching name, it should return as success.
-### ProvisionerGrantBucketAccess
+The `DriverDeleteBucket` API is called when a user wants to delete a bucket. Driver must delete the bucket if it exists. If it cannot find a bucket with the matching name, it should return as success.
+### DriverGrantBucketAccess
 
-The `ProvisionerGrantBucketAccess` API is used to grant an application access to a bucket.
-### ProvisionerRevokeBucketAccess
+The `DriverGrantBucketAccess` API is used to grant an application access to a bucket.
+### DriverRevokeBucketAccess
 
-The `ProvisionerRevokeBucketAccess` API is used to revoke an application's access to a bucket.
+The `DriverRevokeBucketAccess` API is used to revoke an application's access to a bucket.

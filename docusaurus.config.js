@@ -32,13 +32,7 @@ module.exports = {
           type: 'doc',
           position: 'left',
           docId: 'community/team',
-          label: 'Community',
-        },
-        {
-          type: 'doc',
-          position: 'left',
-          docId: 'presentations/presentations',
-          label: 'Presentations',
+          label: 'Contributors',
         },
         {
           href: 'https://github.com/container-object-storage-interface/container-object-storage-interface.github.io',
@@ -107,10 +101,6 @@ module.exports = {
             {
               label: 'container-object-storage-interface-provisioner-sidecar',
               href: 'https://github.com/kubernetes-sigs/container-object-storage-interface-provisioner-sidecar',
-            },
-            {
-              label: 'container-object-storage-interface-csi-adapter',
-              href: 'https://github.com/kubernetes-sigs/container-object-storage-interface-csi-adapter',
             },
           ],
         },
