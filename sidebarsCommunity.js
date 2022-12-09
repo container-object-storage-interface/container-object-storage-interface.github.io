@@ -1,5 +1,0 @@
-module.exports = {
-  community: [
-    'team',
-  ],
-};
