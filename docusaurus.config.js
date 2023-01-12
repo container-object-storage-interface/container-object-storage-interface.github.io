@@ -25,6 +25,11 @@ module.exports = {
         },
         {
           position: 'left',
+          href: 'https://github.com/kubernetes/enhancements/blob/master/keps/sig-storage/1979-object-storage-support/README.md',
+          label: 'KEP',
+        },
+        {
+          position: 'left',
           href: 'https://github.com/orgs/kubernetes-sigs/projects/8',
           label: 'Roadmap',
         },
