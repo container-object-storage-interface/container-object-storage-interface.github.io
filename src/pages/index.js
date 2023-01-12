@@ -28,31 +28,6 @@ Make your application COSI compatible and seamlessly switch between object stora
   },
 ];
 
-
-const users = [
-  {
-    name: 'Sidhartha Mani',
-    imageUrl: '/img/sidhartha_mani.jpg',
-    organizationURL: 'https://min.io',
-    organizationName: 'MinIO, Inc.',
-    organizationLogo: '/img/minio.svg',
-    github: 'wlan0',
-    twitter: 'utter_babbage',
-    pinned: true,
-  },
-  {
-    name: 'Jeff Vance',
-    imageUrl: '/img/jeff_vance.jpeg',
-    organizationURL: 'https://redhat.com',
-    organizationName: 'Red Hat, Inc.',
-    organizationLogo: '/img/redhat.png',
-    github: 'jeffvance',
-    twitter: 'jeffvance',
-    pinned: true,
-  },
-
-];
-
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -139,22 +114,6 @@ export default function Home() {
             </div>
           </section>
         )}
-
-        {users && users.length > 0 && (
-        <section className={styles.users}>
-          <div className="container">
-            <div className="col">
-              <h2 className="text--center">SIG Storage COSI is led by these members</h2>
-            </div>
-            <div className="row">
-              {users.map((props, idx) => (
-                <User key={idx} {...props} />
-              ))}
-            </div>
-          </div>
-        </section>
-        )}
-
       </main>
     </Layout>
   );
