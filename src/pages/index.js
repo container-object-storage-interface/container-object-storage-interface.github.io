@@ -36,6 +36,15 @@ const features = [
     ),
   },
   {
+    title: 'Linode COSI Driver',
+    repoURL: 'https://github.com/linode/linode-cosi-driver',
+    description: (
+      <>
+        Official COSI driver for Linode Object Storage.
+      </>
+    ),
+  },
+  {
     title: 'SUSE COSI Driver',
     repoURL: 'https://github.com/aquarist-labs/s3gw-cosi-driver',
     description: (
