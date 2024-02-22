@@ -35,15 +35,6 @@ const features = [
       </>
     ),
   },
-  {
-    title: 'SUSE COSI Driver',
-    repoURL: 'https://github.com/aquarist-labs/s3gw-cosi-driver',
-    description: (
-      <>
-        Official COSI driver for SUSE s3gw.
-      </>
-    ),
-  },
 ];
 
 function Feature({ repoURL, title, description }) {
