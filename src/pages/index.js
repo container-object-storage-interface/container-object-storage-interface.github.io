@@ -44,6 +44,15 @@ const features = [
       </>
     ),
   },
+  {
+    title: 'SeaweedFS COSI Driver',
+    repoURL: 'https://github.com/seaweedfs/seaweedfs-cosi-driver',
+    description: (
+      <>
+        Official COSI driver for SeaweedFS.
+      </>
+    ),
+  }
 ];
 
 function Feature({ repoURL, title, description }) {
