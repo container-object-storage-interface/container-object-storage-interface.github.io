@@ -44,6 +44,15 @@ const features = [
       </>
     ),
   },
+  {
+    title: 'Huawei COSI Driver',
+    repoURL: 'https://github.com/Huawei/cosi',
+    description: (
+      <>
+        Official COSI driver for Huawei Object Storage.
+      </>
+    ),
+  },
 ];
 
 function Feature({ repoURL, title, description }) {
